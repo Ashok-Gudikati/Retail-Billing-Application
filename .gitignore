@@ -1,0 +1,19 @@
+# Java / Spring Boot build
+backend/target/
+
+# Local environment variables (do not push to GitHub)
+backend/.env
+backend/src/main/resources/application.properties.local
+
+# Node / React / Angular
+frontend/node_modules/
+frontend/build/
+
+# IDE / Editor settings
+*.iml
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
